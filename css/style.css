@@ -12,7 +12,7 @@ a:hover {
 }
 
 body{
-  font-family:Noto Serif JP;
+  font-family:Noto+Serif+JP;
   /* background: url(../img/Web\ 1920\ –\ 1.png) no-repeat top center;
   background-size: cover; */
 }
@@ -25,7 +25,7 @@ body{
   .sp,.heading__title_sp {
   display: block;
   }
-  .pc,.heading__title_pc,.heading__text_pc{
+  .pc,.heading__title_pc,.heading__text_pc,.header__content{
     display: none;
   }
 }
@@ -33,9 +33,15 @@ body{
 /* header */
 
 header{
-  background:url(../img/header-img.png) no-repeat top center;
-  background-size:cover;
-  height:78vh;
+  background:url(../img/header-img3.png) no-repeat top center;
+  background-size:contain;
+  height:80vh;
+  width: auto;
+}
+
+.header__row{
+  display: flex;
+  justify-content:flex-end;
 }
 
 /* 台形の維持
@@ -56,6 +62,7 @@ header{
   background-color: #00374E;
   color:#FFFFFF;
   height:28vh;
+  margin-top: 160px;
 }
 
 .heading__title_pc{
@@ -80,6 +87,7 @@ header{
 @media screen and (max-width:576px){
   .heading{
     height:30vh;
+    margin-top: 0px;
   }
 
   .heading__title_sp{
@@ -87,6 +95,10 @@ header{
     font-weight: bold;
     padding-top: 36px;
     font-size: 24px;
+  }
+
+  .heading__content img{
+    width: 90vw;
   }
 }
 
@@ -374,6 +386,10 @@ header{
   .voice__row{
     width: 100vw;
   }
+
+  .voice__row img{
+    width: 80vw;
+  }
 }
 
 /* flow */
@@ -440,13 +456,17 @@ footer{
 .footer__btn{
   text-align: center;
   padding-top: 72px;
-  padding-bottom: 103px;
+  /* padding-bottom: 103px; */
 }
 
 .footer__btn img{
 width:70vw;
 }
 @media screen and (max-width:576px){
+
+  footer{
+    height:22vh;
+  }
 
 }
 
