@@ -45,6 +45,10 @@ header .container{
   display: flex;
 }
 
+h1 img{
+  padding-top: 20%;
+}
+
 .header__row{
   display: flex;
   justify-content:flex-end;
