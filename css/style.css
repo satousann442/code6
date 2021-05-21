@@ -38,6 +38,7 @@ header{
   height:auto;
   max-height: 590px;
   overflow: hidden;
+  position: relative;
 }
 
 header .container{
@@ -59,13 +60,10 @@ header .container{
 }
 
 .header__logo{
-  position: relative;
-  top:-620px;
-  left:30px;
+  position:absolute;
+  top:20px;
+  left:3%;
 }
-
-/*
-ボタンのサイズ*/
 
 @media screen and (max-width:576px){
   header{
@@ -75,12 +73,6 @@ header .container{
   }
     h1 img{
       margin:  0 auto;
-
-  }
-
-  .header__logo{
-    top:-540px;
-    left: 5px;
   }
 
   .header__logo img{
@@ -223,7 +215,6 @@ header .container{
 }
 
 /* agent */
-/* ずれてる？ */
 
 .agent{
   padding-bottom: 170px;
@@ -429,15 +420,6 @@ header .container{
   text-align: left;
 }
 
-@media screen and (max-width:576px){
-
-  .voice__are img{
-    width: 90vw;
-  }
-
-
-}
-
 /* flow */
 
 .flow{
@@ -506,18 +488,16 @@ footer{
 .footer__btn{
   text-align: center;
   padding-top: 72px;
-  /* padding-bottom: 103px; */
 }
 
 .footer__btn img{
-width:70vw;
+  width:70vw;
 }
 @media screen and (max-width:576px){
 
   footer{
     height:22vh;
   }
-
 }
 
 
