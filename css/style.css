@@ -59,10 +59,6 @@ h1 img{
   padding-top: 36%;
 }
 
-.header__content img{
-  width: 100%;
-}
-
 .header__logo{
   position:absolute;
   top:20px;
@@ -79,8 +75,8 @@ h1 img{
       margin:  0 auto;
   }
 
-  .header__logo img{
-    width: 60%;
+  .header__logo {
+    width: 200px;
   }
 }
 
@@ -110,7 +106,6 @@ h1 img{
 .btn img{
   padding-top: 22px;
   padding-bottom: 5%;
-  width:90%
 }
 
 @media screen and (max-width:576px){
@@ -122,7 +117,7 @@ h1 img{
     font-size: 24px;
   }
 
-  .heading__content img{
+  .heading__content{
     width: 90%;
   }
 }
@@ -151,12 +146,12 @@ h1 img{
   .about__title{
     padding-top: 30px;
   }
-}
 
-.about img{
+.about__row_content{
   width: 90%;
 }
 
+}
 /* point */
 
 .point{
@@ -213,9 +208,6 @@ h1 img{
     margin-top: 0px;
   }
 
-  .point .container img{
-    width: 90%;
-  }
 }
 
 /* agent */
@@ -263,11 +255,6 @@ h1 img{
   margin-right: 1%; */
 }
 
-.agent__content img{
-  width: 100%;
-  height: auto;
-}
-
 .agent__desc{
   font-size: 20px;
   font-weight: bold;
@@ -293,10 +280,6 @@ h1 img{
     width: 90%;
     padding-top: 28px;
     margin-bottom: 30px;
-  }
-
-  .agent__content img{
-    width:90%;
   }
 }
 
@@ -337,7 +320,6 @@ h1 img{
 
 .work__content img{
   padding-bottom: 53px;
-  width: 90%;
 }
 
 .work__desc{
@@ -400,10 +382,6 @@ h1 img{
   text-align: center;
 }
 
-.voice__content_1 img{
-  width: 90%;
-}
-
 .voice__detail{
   margin-top: 19px;
   font-weight: bold;
@@ -417,7 +395,6 @@ h1 img{
 .voice__content_2 img{
   margin-top: 22px;
   margin-bottom: 27px;
-  width: 90%;
 }
 
 .voice__txt{
@@ -459,10 +436,6 @@ h1 img{
   text-align: center;
 }
 
-.flow__row img{
-  width:90%;
-}
-
 .flow__subtitle{
   font-weight: bold;
   padding-top: 20px;
@@ -494,9 +467,6 @@ footer{
   padding-top: 72px;
 }
 
-.footer__btn img{
-  width:70vw;
-}
 @media screen and (max-width:576px){
 
   footer{
